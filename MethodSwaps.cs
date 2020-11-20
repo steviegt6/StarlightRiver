@@ -102,7 +102,7 @@ namespace StarlightRiver
         {
             orig(self, flat);
 
-            if(Main.LocalPlayer.GetModPlayer<BiomeHandler>().zoneAshhell)
+            /*if(Main.LocalPlayer.GetModPlayer<BiomeHandler>().zoneAshhell)
             {
                 //just a vanilla zoing for now to test 
                 if (Main.screenPosition.Y + Main.screenHeight < (Main.maxTilesY - 220) * 16f) return;
@@ -160,7 +160,7 @@ namespace StarlightRiver
                         }
                     }
                 }
-            }
+            }*/
         }
 
         //TODO: Move this

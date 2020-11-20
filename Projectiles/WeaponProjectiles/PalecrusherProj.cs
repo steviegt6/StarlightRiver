@@ -57,18 +57,15 @@ namespace StarlightRiver.Projectiles.WeaponProjectiles
 					}
 				}
 				targets[k] = target;
-				if (targets[k] != -1)
-				{
-					NPC npc = Main.npc[targets[k]];
-					Projectile.NewProjectile(npc.Center.X, npc.Center.Y - 32, 0, 0, ModContent.ProjectileType<PalePillar>(), projectile.damage / 3, projectile.knockBack / 2, projectile.owner);
-				}
 			}
 			for (int j = 0; j < 3; j++)
             {
 				if (targets[j] != -1)
                 {
 					NPC npc = Main.npc[targets[j]];
-					Projectile.NewProjectile(npc.Center.X, npc.Center.Y - 32, 0, 0, ModContent.ProjectileType<PalePillar>(), projectile.damage / 3, projectile.knockBack / 2, projectile.owner);
+					Vector2 distVector = npc.Center - player.Center;
+					int dist = (int)distVector.Length();
+					Projectile.NewProjectile(npc.Center.X, npc.Center.Y - dist, 0, 0, ModContent.ProjectileType<PalePillar>(), projectile.damage / 3, projectile.knockBack / 2, projectile.owner);
 				}
 			}
 		}

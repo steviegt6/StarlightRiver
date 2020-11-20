@@ -74,6 +74,7 @@ namespace StarlightRiver.Projectiles.WeaponProjectiles
 		}
 		public override void DrawBehind(int index, List<int> drawCacheProjsBehindNPCsAndTiles, List<int> drawCacheProjsBehindNPCs, List<int> drawCacheProjsBehindProjectiles, List<int> drawCacheProjsOverWiresUI)
 		{
+			if (phase > 0)
 			drawCacheProjsBehindNPCsAndTiles.Add(index);
 		}
 		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)

@@ -152,13 +152,14 @@ namespace StarlightRiver
                 }
             }
         }
-
+        public static Effect PrismShader;
         public override void Load()
         {
             //Shaders
             if (!Main.dedServ)
             {
                 GameShaders.Misc["StarlightRiver:Distort"] = new MiscShaderData(new Ref<Effect>(GetEffect("Effects/Distort")), "Distort");
+                PrismShader = Instance.GetEffect("Effects/PrismShader");
 
                 Ref<Effect> screenRef4 = new Ref<Effect>(GetEffect("Effects/Shockwave"));
                 Filters.Scene["ShockwaveFilter"] = new Filter(new ScreenShaderData(screenRef4, "ShockwavePass"), EffectPriority.VeryHigh);

@@ -30,8 +30,8 @@ namespace StarlightRiver.Projectiles.WeaponProjectiles.Summons
 
 		public sealed override void SetDefaults()
 		{
-			projectile.width = 24;
-			projectile.height = 24;
+			projectile.width = 2;
+			projectile.height = 2;
 			projectile.tileCollide = false;
 			projectile.friendly = false;
 			projectile.hostile = false;
@@ -175,7 +175,8 @@ namespace StarlightRiver.Projectiles.WeaponProjectiles.Summons
 				projectile.velocity = direction;
 			}
 		}
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+		BasicEffect effect2 = new BasicEffect(Main.graphics.GraphicsDevice);
+		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
         {
 			attacking = false;
         }
@@ -184,14 +185,15 @@ namespace StarlightRiver.Projectiles.WeaponProjectiles.Summons
 			Player player = projectile.Owner();
 			Texture2D tex = mod.GetTexture("Projectiles/WeaponProjectiles/Summons/TentacleSummonTail2");
 			float dist = (projectile.position - player.Center).Length();
-			TentacleDraw.DrawBezier(spriteBatch, lightColor, tex, projectile.Center, player.Center, control1, control2, tex.Height / dist / 2, projectile.rotation);
-			return true;
+			TentacleDraw.DrawBezier(spriteBatch, lightColor, tex, projectile.Center, player.Center, control1, control2, tex.Height / dist / 2, effect2, projectile.rotation);
+			return false;
 		}
 	}
 	internal static class TentacleDraw 
 	{
-		public static void DrawBezier(SpriteBatch spriteBatch, Color lightColor, Texture2D texture, Vector2 endpoint, Vector2 startPoint, Vector2 c1, Vector2 c2, float chainsPerUse, float rotDis = 0f)
+		public static void DrawBezier(SpriteBatch spriteBatch, Color lightColor, Texture2D texture, Vector2 endpoint, Vector2 startPoint, Vector2 c1, Vector2 c2, float chainsPerUse, BasicEffect effect2, float rotDis = 0f)
 		{
+			List<Vector2> points = new List<Vector2>();
 			float width = texture.Width;
 			float length = (startPoint - endpoint).Length();
 			for (float i = 0; i <= 1; i += chainsPerUse)
@@ -210,11 +212,107 @@ namespace StarlightRiver.Projectiles.WeaponProjectiles.Summons
 				   y -
 				   WHY(i - chainsPerUse, startPoint.Y, c1.Y, endpoint.Y));
 					projTrueRotation = distBetween.ToRotation() - MathHelper.PiOver2 + rotDis;
-					Main.spriteBatch.Draw(texture, new Vector2(x - Main.screenPosition.X, y - Main.screenPosition.Y),
+					/*Main.spriteBatch.Draw(texture, new Vector2(x - Main.screenPosition.X, y - Main.screenPosition.Y),
 				   new Rectangle(0, 0, texture.Width, texture.Height), color, projTrueRotation,
-				   new Vector2(texture.Width * 0.5f, texture.Height * 0.5f), 1, SpriteEffects.None, 0);
+				   new Vector2(texture.Width * 0.5f, texture.Height * 0.5f), 1, SpriteEffects.None, 0);*/
+					points.Add(new Vector2(x, y));
 				}
 			}
+			DrawPrims(points, effect2);
+		}
+		public static void DrawPrims(List<Vector2> points, BasicEffect effect2)
+        {
+			//Effect effect = mod.GetEffect("Effects/trailShaders");
+
+			effect2.VertexColorEnabled = true;
+			VertexPositionColorTexture[] vertices = new VertexPositionColorTexture[points.Count * 6];
+			int currentIndex = 0;
+			float lerper = 1;
+			int Cap = points.Count * 3;
+			void AddVertex(Vector2 position, Color color, Vector2 uv)
+			{
+				if (currentIndex < vertices.Length)
+					vertices[currentIndex++] = new VertexPositionColorTexture(new Vector3(position - Main.screenPosition, 0f), color, uv);
+			}
+			void PrepareBasicShader()
+			{
+				int width2 = Main.graphics.GraphicsDevice.Viewport.Width;
+				int height = Main.graphics.GraphicsDevice.Viewport.Height;
+				Vector2 zoom = Main.GameViewMatrix.Zoom;
+				Matrix view = Matrix.CreateLookAt(Vector3.Zero, Vector3.UnitZ, Vector3.Up) * Matrix.CreateTranslation(width2 / 2, height / -2, 0) * Matrix.CreateRotationZ(MathHelper.Pi) * Matrix.CreateScale(zoom.X, zoom.Y, 1f);
+				Matrix projection = Matrix.CreateOrthographic(width2, height, 0, 1000);
+				effect2.View = view;
+				effect2.Projection = projection;
+				foreach (EffectPass pass in effect2.CurrentTechnique.Passes)
+				{
+					pass.Apply();
+				}
+			}
+			float width = 6;
+			float alphaValue = 0.6f;
+			for (int i = 0; i < points.Count; i++)
+			{
+				if (i == 0)
+				{
+					Color c = Color.Cyan;
+					Vector2 normalAhead = CurveNormal(points, i + 1);
+					Vector2 secondUp = points[i + 1] - normalAhead * width;
+					Vector2 secondDown = points[i + 1] + normalAhead * width;
+					AddVertex(points[i], c * alphaValue, new Vector2((float)Math.Sin(lerper / 20f), (float)Math.Sin(lerper / 20f)));
+					AddVertex(secondUp, c * alphaValue, new Vector2((float)Math.Sin(lerper / 20f), (float)Math.Sin(lerper / 20f)));
+					AddVertex(secondDown, c * alphaValue, new Vector2((float)Math.Sin(lerper / 20f), (float)Math.Sin(lerper / 20f)));
+				}
+				else
+				{
+					if (i != points.Count - 1)
+					{
+						Color c = Color.Cyan;
+						Vector2 normal = CurveNormal(points, i);
+						Vector2 normalAhead = CurveNormal(points, i + 1);
+						float j = (Cap + ((float)(Math.Sin(lerper / 10f)) * 1) - i * 0.1f) / Cap;
+						width *= j;
+						Vector2 firstUp = points[i] - normal * width;
+						Vector2 firstDown = points[i] + normal * width;
+						Vector2 secondUp = points[i + 1] - normalAhead * width;
+						Vector2 secondDown = points[i + 1] + normalAhead * width;
+
+						AddVertex(firstUp, c * alphaValue, new Vector2(1));
+						AddVertex(secondDown, c * alphaValue, new Vector2(0));
+						AddVertex(firstDown, c * alphaValue, new Vector2(0));
+
+
+						AddVertex(secondUp, c * alphaValue, new Vector2(1));
+						AddVertex(secondDown, c * alphaValue, new Vector2(0));
+						AddVertex(firstUp, c * alphaValue, new Vector2(0));
+					}
+					else
+					{
+
+					}
+				}
+			}
+			PrepareBasicShader();
+			Main.graphics.GraphicsDevice.DrawUserPrimitives(PrimitiveType.TriangleList, vertices, 0, points.Count * 2);
+		}
+
+		private static Vector2 CurveNormal(List<Vector2> points, int index)
+		{
+			if (points.Count == 1) return points[0];
+
+			if (index == 0)
+			{
+				return Clockwise90(Vector2.Normalize(points[1] - points[0]));
+			}
+			if (index == points.Count - 1)
+			{
+				return Clockwise90(Vector2.Normalize(points[index] - points[index - 1]));
+			}
+			return Clockwise90(Vector2.Normalize(points[index + 1] - points[index - 1]));
+		}
+
+		private static Vector2 Clockwise90(Vector2 vector)
+		{
+			return new Vector2(-vector.Y, vector.X);
 		}
 		#region os's shit
 		public static float EX(float t,
