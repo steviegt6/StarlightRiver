@@ -3,10 +3,10 @@ using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using StarlightRiver.Core;
-using StarlightRiver.Abilities;
-using StarlightRiver.Projectiles.WeaponProjectiles;
-using StarlightRiver.Items.Vitric;
-using StarlightRiver.Tiles.Vitric.Blocks;
+using StarlightRiver.Content.Abilities;
+using StarlightRiver.Content.Projectiles.WeaponProjectiles;
+using StarlightRiver.Content.Items.Vitric;
+using StarlightRiver.Content.Tiles.Vitric;
 using System.Linq;
 using Terraria;
 using Terraria.ID;
@@ -14,7 +14,7 @@ using Terraria.DataStructures;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Armor.Vitric
+namespace StarlightRiver.Content.Items.Armor.Vitric
 {
     [AutoloadEquip(EquipType.Head)]
     public class VitricHead : ModItem

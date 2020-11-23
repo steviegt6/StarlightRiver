@@ -7,9 +7,9 @@ using Terraria;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using static Terraria.ModLoader.ModContent;
-using StarlightRiver.Projectiles.Dummies;
+using StarlightRiver.Content.Projectiles.Dummies;
 
-namespace StarlightRiver.Tiles
+namespace StarlightRiver.Content.Tiles
 {
     abstract class LootBubble : DummyTile
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Tiles
+namespace StarlightRiver.Content.Tiles
 {
     public abstract class LootChest : ModTile
     {

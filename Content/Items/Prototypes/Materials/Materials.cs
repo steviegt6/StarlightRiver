@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StarlightRiver.Items.Prototypes.Materials
+namespace StarlightRiver.Content.Items.Prototypes.Materials
 {
     class Tubes : QuickMaterial
     {

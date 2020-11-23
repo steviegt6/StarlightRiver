@@ -1,10 +1,11 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
 namespace StarlightRiver.Content.Tiles.Overgrow
@@ -32,7 +33,7 @@ namespace StarlightRiver.Content.Tiles.Overgrow
 
     public class TorchOvergrowItem : QuickTileItem
     {
-        public TorchOvergrowItem() : base("Faerie Torch", "Sparkly!", TileType<TorchOvergrow>(), 0, OvergrowTileLoader.OvergrowItemDir + "TorchOvergrowItem") { }
+        public TorchOvergrowItem() : base("Faerie Torch", "Sparkly!", TileType<TorchOvergrow>(), 0, OvergrowTileLoader.OvergrowTileDir + "TorchOvergrowItem") { }
     }
 
     internal class BlueTorchOvergrow : ModTile
@@ -58,6 +59,6 @@ namespace StarlightRiver.Content.Tiles.Overgrow
 
     public class BlueTorchOvergrowItem : QuickTileItem
     {
-        public BlueTorchOvergrowItem() : base("Blue Faerie Torch", "Sparkly! and Blue!", TileType<BlueTorchOvergrow>(), 0, OvergrowTileLoader.OvergrowItemDir + "BlueTorchOvergrowItem") { }
+        public BlueTorchOvergrowItem() : base("Blue Faerie Torch", "Sparkly! and Blue!", TileType<BlueTorchOvergrow>(), 0, OvergrowTileLoader.OvergrowTileDir + "BlueTorchOvergrowItem") { }
     }
 }

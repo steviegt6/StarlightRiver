@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Items.StarJuice
+namespace StarlightRiver.Content.Items.StarJuice
 {
     internal class StarjuiceStoringItem : ModItem
     {

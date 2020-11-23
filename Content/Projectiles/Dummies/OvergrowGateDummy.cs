@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Abilities;
-using StarlightRiver.Abilities.Content;
+using StarlightRiver.Content.Abilities;
+using StarlightRiver.Content.Abilities.Content;
 using System;
 using System.Linq;
 using Terraria;

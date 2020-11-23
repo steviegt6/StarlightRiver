@@ -9,7 +9,7 @@ using Terraria.GameInput;
 using Terraria.ID;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Abilities.Content.GaiasFist
+namespace StarlightRiver.Content.Abilities.Content.GaiasFist
 {
     public class Smash : Ability
     {

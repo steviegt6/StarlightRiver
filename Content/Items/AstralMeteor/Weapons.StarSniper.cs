@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Aluminum
+namespace StarlightRiver.Content.Items.Aluminum
 {
     class StarSniper : ModItem
     {

@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.BossDrops.VitricBossDrops
+namespace StarlightRiver.Content.Items.BossDrops.VitricBossDrops
 {
     class VitricBossBag : ModItem
     {

@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.EbonyIvory
+namespace StarlightRiver.Content.Items.EbonyIvory
 {
     public class IvorySword : ModItem
     {

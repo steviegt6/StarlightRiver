@@ -1,12 +1,12 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Projectiles.WeaponProjectiles;
+using StarlightRiver.Content.Projectiles.WeaponProjectiles;
 using System.Linq;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Overgrow
+namespace StarlightRiver.Content.Items.Overgrow
 {
     internal class VineWhip : ModItem
     {

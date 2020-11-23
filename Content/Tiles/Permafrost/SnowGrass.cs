@@ -7,7 +7,7 @@ using static Terraria.ModLoader.ModContent;
 using Terraria.ObjectData;
 using Terraria.DataStructures;
 using Terraria.Enums;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using System;
 
 namespace StarlightRiver.Content.Tiles.Permafrost.Decoration

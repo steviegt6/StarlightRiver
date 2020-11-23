@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StarlightRiver.Core;
-using StarlightRiver.Items.BossDrops.VitricBossDrops;
+using StarlightRiver.Content.Items.BossDrops.VitricBossDrops;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -9,9 +9,10 @@ using System.Linq;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using StarlightRiver.Content.Items.Vitric;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Boss.VitricBoss
+namespace StarlightRiver.Content.NPCs.Boss.VitricBoss
 {
     internal sealed partial class VitricBoss : ModNPC, IDynamicMapIcon
     {
@@ -142,14 +143,14 @@ namespace StarlightRiver.NPCs.Boss.VitricBoss
                 int weapon = Main.rand.Next(5);
                 switch (weapon)
                 {
-                    case 0: Item.NewItem(npc.Center, ItemType<Items.Vitric.VitricPick>()); break;
-                    case 1: Item.NewItem(npc.Center, ItemType<Items.Vitric.VitricAxe>()); break;
-                    case 2: Item.NewItem(npc.Center, ItemType<Items.Vitric.VitricHammer>()); break;
-                    case 3: Item.NewItem(npc.Center, ItemType<Items.Vitric.VitricSword>()); break;
-                    case 4: Item.NewItem(npc.Center, ItemType<Items.Vitric.VitricBow>()); break;
+                    case 0: Item.NewItem(npc.Center, ItemType<VitricPick>()); break;
+                    case 1: Item.NewItem(npc.Center, ItemType<VitricAxe>()); break;
+                    case 2: Item.NewItem(npc.Center, ItemType<VitricHammer>()); break;
+                    case 3: Item.NewItem(npc.Center, ItemType<VitricSword>()); break;
+                    case 4: Item.NewItem(npc.Center, ItemType<VitricBow>()); break;
                 }
-                Item.NewItem(npc.Center, ItemType<Items.Vitric.VitricOre>(), Main.rand.Next(30, 50));
-                Item.NewItem(npc.Center, ItemType<Items.Accessories.StaminaUp>());
+                Item.NewItem(npc.Center, ItemType<VitricOre>(), Main.rand.Next(30, 50));
+                Item.NewItem(npc.Center, ItemType<Content.Items.Accessories.StaminaUp>());
             }
         }
 
@@ -329,7 +330,7 @@ namespace StarlightRiver.NPCs.Boss.VitricBoss
                     {
                         foreach (Player player in Main.player)
                         {
-                            if (Abilities.AbilityHelper.CheckDash(player, npc.Hitbox)) //boss should be dashable now, when dashed:
+                            if (Content.Abilities.AbilityHelper.CheckDash(player, npc.Hitbox)) //boss should be dashable now, when dashed:
                             {
                                 player.immune = true;
                                 player.immuneTime = 60;

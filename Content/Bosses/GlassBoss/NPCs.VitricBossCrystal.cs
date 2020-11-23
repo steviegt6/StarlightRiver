@@ -3,10 +3,10 @@ using Microsoft.Xna.Framework.Graphics;
 using System;
 using Terraria;
 using Terraria.ModLoader;
-using static StarlightRiver.NPCs.Boss.VitricBoss.VitricBoss;
+using static StarlightRiver.Content.NPCs.Boss.VitricBoss.VitricBoss;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Boss.VitricBoss
+namespace StarlightRiver.Content.NPCs.Boss.VitricBoss
 {
     internal class VitricBossCrystal : ModNPC, IDrawAdditive
     {

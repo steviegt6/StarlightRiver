@@ -13,6 +13,7 @@ using Terraria.Graphics.Effects;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using StarlightRiver.Content.Tiles;
 using static Terraria.ModLoader.ModContent;
 
 namespace StarlightRiver.Content.CustomHooks

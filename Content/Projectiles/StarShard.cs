@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Projectiles
+namespace StarlightRiver.Content.Projectiles
 {
     internal class StarShard : ModProjectile
     {

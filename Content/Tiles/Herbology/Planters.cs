@@ -7,7 +7,7 @@ using Terraria.ModLoader;
 using Terraria.ObjectData;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Herbology
+namespace StarlightRiver.Content.Tiles.Herbology
 {
     internal class Soil : ModTile
     {

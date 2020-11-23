@@ -13,7 +13,7 @@ using static Terraria.WorldGen;
 using StarlightRiver.Noise;
 using StarlightRiver.Dusts;
 
-namespace StarlightRiver.Items.Armor.Engineer
+namespace StarlightRiver.Content.Items.Armor.Engineer
 {
     [AutoloadEquip(EquipType.Head)]
     public class EngineerHead : ModItem

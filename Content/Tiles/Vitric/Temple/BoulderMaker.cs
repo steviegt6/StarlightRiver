@@ -8,10 +8,11 @@ using Terraria;
 using Terraria.ID;
 using Microsoft.Xna.Framework;
 using static Terraria.ModLoader.ModContent;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using Terraria.Audio;
+using StarlightRiver.Core;
 
-namespace StarlightRiver.Tiles.Vitric.Temple
+namespace StarlightRiver.Content.Tiles.Vitric.Temple
 {
     class BoulderMaker : ModTile
     {

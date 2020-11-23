@@ -1,5 +1,5 @@
 ﻿using NetEasy;
-using StarlightRiver.Abilities;
+using StarlightRiver.Content.Abilities;
 using System;
 using System.Linq;
 using Terraria;

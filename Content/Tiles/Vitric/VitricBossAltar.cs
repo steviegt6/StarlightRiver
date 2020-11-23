@@ -1,8 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StarlightRiver.Core;
-using StarlightRiver.NPCs.Boss.VitricBoss;
-using StarlightRiver.Projectiles.Dummies;
+using StarlightRiver.Content.NPCs.Boss.VitricBoss;
+using StarlightRiver.Content.Projectiles.Dummies;
 using System;
 using System.Linq;
 using Terraria;
@@ -10,7 +10,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Vitric
+namespace StarlightRiver.Content.Tiles.Vitric
 {
     internal class VitricBossAltar : DummyTile
     {

@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 using System.Collections.Generic;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Projectiles.WeaponProjectiles
+namespace StarlightRiver.Content.Projectiles.WeaponProjectiles
 {
     public class PalePillar : ModProjectile
 	{

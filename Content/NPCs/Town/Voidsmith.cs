@@ -5,7 +5,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using StarlightRiver.Core.Loaders;
 
-namespace StarlightRiver.NPCs.Town
+namespace StarlightRiver.Content.NPCs.Town
 {
     [AutoloadHead]
     public class Voidsmith : ModNPC

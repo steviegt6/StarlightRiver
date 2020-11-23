@@ -3,9 +3,10 @@ using StarlightRiver.GUI;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Crafting
+namespace StarlightRiver.Content.Tiles.Crafting
 {
     internal class Oven : ModTile
     {

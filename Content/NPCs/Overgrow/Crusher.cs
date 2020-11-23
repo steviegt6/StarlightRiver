@@ -8,7 +8,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Traps
+namespace StarlightRiver.Content.NPCs.Traps
 {
     internal class Crusher : ModNPC
     {

@@ -6,7 +6,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 using System;
-using StarlightRiver.Projectiles;
+using StarlightRiver.Content.Projectiles;
 
 namespace StarlightRiver.Content.Tiles.Permafrost
 {

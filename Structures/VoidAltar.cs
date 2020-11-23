@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Tiles.Void;
+using StarlightRiver.Content.Tiles.Void;
 using Terraria;
 using Terraria.ID;
 using Terraria.World.Generation;

@@ -13,6 +13,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 using Terraria.UI;
+using StarlightRiver.Content.Items;
 using static Terraria.ModLoader.ModContent;
 
 namespace StarlightRiver
@@ -302,8 +303,8 @@ namespace StarlightRiver
 
         public static void SpawnGem(int ID, Vector2 position)
         {
-            int item = Item.NewItem(position, ItemType<Items.StarlightGem>());
-            (Main.item[item].modItem as Items.StarlightGem).gemID = ID;
+            int item = Item.NewItem(position, ItemType<StarlightGem>());
+            (Main.item[item].modItem as StarlightGem).gemID = ID;
         }
 
         public static void DrawSymbol(SpriteBatch spriteBatch, Vector2 position, Color color)

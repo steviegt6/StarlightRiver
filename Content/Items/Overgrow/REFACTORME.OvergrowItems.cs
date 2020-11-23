@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Items.Overgrow
+namespace StarlightRiver.Content.Items.Overgrow
 {
     public class FaeShard : QuickMaterial { public FaeShard() : base("Fae Shard", "Tooltip Placeholder", 999, 100, 1) { } }
 

@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Boss.OvergrowBoss.OvergrowBossProjectile
+namespace StarlightRiver.Content.NPCs.Boss.OvergrowBoss.OvergrowBossProjectile
 {
     internal class Phase1Bolt : ModProjectile
     {

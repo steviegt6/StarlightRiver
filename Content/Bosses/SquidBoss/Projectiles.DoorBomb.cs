@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 
-namespace StarlightRiver.NPCs.Boss.SquidBoss
+namespace StarlightRiver.Content.NPCs.Boss.SquidBoss
 {
     class DoorBomb : InteractiveProjectile
     {

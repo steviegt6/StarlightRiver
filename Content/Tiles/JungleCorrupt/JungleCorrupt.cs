@@ -5,9 +5,10 @@ using Terraria.Enums;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.JungleCorrupt
+namespace StarlightRiver.Content.Tiles.JungleCorrupt
 {
     class GrassJungleCorrupt : ModTile
     {

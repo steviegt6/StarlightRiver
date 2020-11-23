@@ -7,7 +7,7 @@ using Terraria.ModLoader;
 using Terraria.DataStructures;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Projectiles.WeaponProjectiles
+namespace StarlightRiver.Content.Projectiles.WeaponProjectiles
 {
     internal class PalestoneArmorProjectile : ModProjectile
     {

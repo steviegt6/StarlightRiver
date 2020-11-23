@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 using Terraria.ObjectData;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.JungleCorrupt
+namespace StarlightRiver.Content.Tiles.JungleCorrupt
 {
     internal class SporeJungleCorrupt : ModTile
     {

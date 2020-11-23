@@ -1,6 +1,6 @@
 ﻿using Terraria.ModLoader;
 
-namespace StarlightRiver.Items.Armor
+namespace StarlightRiver.Content.Items.Armor
 {
     internal interface IArmorLayerDrawable
     {

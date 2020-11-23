@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Items.Armor.Slime
+namespace StarlightRiver.Content.Items.Armor.Slime
 {
     [AutoloadEquip(EquipType.Head)]
     public class SlimeHead : ModItem

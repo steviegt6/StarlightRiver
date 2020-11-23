@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ModLoader;
 using StarlightRiver.Prefixes;
 using Terraria.Utilities;
-using StarlightRiver.Abilities;
+using StarlightRiver.Content.Abilities;
 
 namespace StarlightRiver.Core
 {

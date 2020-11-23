@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.TownUpgrade
+namespace StarlightRiver.Content.NPCs.TownUpgrade
 {
     class UpgradeTracker : GlobalNPC
     {

@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 using StarlightRiver.Core;
-using StarlightRiver.Projectiles.Ammo;
+using StarlightRiver.Content.Projectiles.Ammo;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Items.Accessories.EarlyPreHardmode
+namespace StarlightRiver.Content.Items.Accessories.EarlyPreHardmode
 {
     public class GlassArrowhead : SmartAccessory
     {

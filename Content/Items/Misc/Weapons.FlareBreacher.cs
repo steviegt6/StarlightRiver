@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StarlightRiver.Core;
-using StarlightRiver.Projectiles.WeaponProjectiles;
+using StarlightRiver.Content.Projectiles.WeaponProjectiles;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
@@ -16,7 +16,7 @@ using static Terraria.ModLoader.ModContent;
 //-Make flares embed in ground
 //-Add casing gores?
 //-glowmasks
-namespace StarlightRiver.Items
+namespace StarlightRiver.Content.Items
 {
     public class FlareBreacher : ModItem
     {

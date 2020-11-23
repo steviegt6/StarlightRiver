@@ -9,7 +9,7 @@ using Terraria;
 using static Terraria.ModLoader.ModContent;
 using Microsoft.Xna.Framework;
 
-namespace StarlightRiver.Abilities.Content.ForbiddenWinds
+namespace StarlightRiver.Content.Abilities.Content.ForbiddenWinds
 {
     public class Pulse : InfusionItem<Dash>
     {

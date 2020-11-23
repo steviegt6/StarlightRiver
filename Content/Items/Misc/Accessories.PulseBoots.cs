@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Accessories
+namespace StarlightRiver.Content.Items.Accessories
 {
     [AutoloadEquip(EquipType.Shoes)]
     public class PulseBoots : SmartAccessory

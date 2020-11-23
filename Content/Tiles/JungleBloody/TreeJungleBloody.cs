@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Tiles.JungleBloody
+namespace StarlightRiver.Content.Tiles.JungleBloody
 {
     internal class TreeJungleBloody : ModTree
     {

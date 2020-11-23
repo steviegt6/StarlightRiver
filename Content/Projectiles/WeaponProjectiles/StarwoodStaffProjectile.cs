@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 using System;
 using StarlightRiver.Core;
 
-namespace StarlightRiver.Projectiles.WeaponProjectiles
+namespace StarlightRiver.Content.Projectiles.WeaponProjectiles
 {
     class StarwoodStaffProjectile : ModProjectile, IDrawAdditive
     {

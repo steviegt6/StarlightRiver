@@ -1,16 +1,17 @@
-﻿using static Terraria.ModLoader.ModContent;
+﻿using StarlightRiver.Content.Tiles.Overgrow;
+using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Overgrow
+namespace StarlightRiver.Content.Items.Overgrow
 {
     public class HatchOvergrowItem : QuickTileItem { public HatchOvergrowItem() : base("Skyview Vent", "", TileType<Tiles.Overgrow.HatchOvergrow>(), 0) { } }
     public class SetpieceOvergrowItem : QuickTileItem
     {
-        public SetpieceOvergrowItem() : base("Overgrow Altar", "", TileType<Tiles.Overgrow.SetpieceAltar>(), 0) { }
+        public SetpieceOvergrowItem() : base("Overgrow Altar", "", TileType<SetpieceAltar>(), 0) { }
         public override string Texture => "StarlightRiver/MarioCumming";
     }
     public class BigHatchOvergrowItem : QuickTileItem
     {
-        public BigHatchOvergrowItem() : base("Overgrow Godrays", "", TileType<Tiles.Overgrow.BigHatchOvergrow>(), 0) { }
+        public BigHatchOvergrowItem() : base("Overgrow Godrays", "", TileType<BigHatchOvergrow>(), 0) { }
         public override string Texture => "StarlightRiver/MarioCumming";
     }
 }

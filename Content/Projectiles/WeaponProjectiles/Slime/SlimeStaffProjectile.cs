@@ -3,13 +3,13 @@ using Terraria;
 using System;
 using Terraria.ID;
 using Terraria.ModLoader;
-using StarlightRiver.Items.Slime;
+using StarlightRiver.Content.Items.Slime;
 using Microsoft.Xna.Framework.Graphics;
 using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 using System.IO;
 
-namespace StarlightRiver.Projectiles.WeaponProjectiles.Slime
+namespace StarlightRiver.Content.Projectiles.WeaponProjectiles.Slime
 {
     internal class SlimeStaffProjectile : ModProjectile
     {

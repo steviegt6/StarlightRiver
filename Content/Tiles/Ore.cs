@@ -2,9 +2,11 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using StarlightRiver.Content.Items;
+using StarlightRiver.Core;using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles
+namespace StarlightRiver.Content.Tiles
 {
     internal class OreEbony : ModTile
     { public override void SetDefaults() { QuickBlock.QuickSet(this, 0, DustID.Stone, SoundID.Tink, new Color(80, 80, 90), ItemType<Items.EbonyIvory.OreEbonyItem>(), true, true, "Ebony Ore"); } }

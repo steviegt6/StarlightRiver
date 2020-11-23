@@ -1,5 +1,5 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.Enums;

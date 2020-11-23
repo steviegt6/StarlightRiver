@@ -1,7 +1,7 @@
 ﻿using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Items.Herbology
+namespace StarlightRiver.Content.Items.Herbology
 {
     public class Soil : ModItem
     {

@@ -1,14 +1,15 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Terraria.ID;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Temple
+namespace StarlightRiver.Content.Tiles.Temple
 {
     class TempleLootBubble : LootBubble
     {

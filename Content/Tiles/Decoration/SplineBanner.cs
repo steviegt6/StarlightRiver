@@ -6,7 +6,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Decoration
+namespace StarlightRiver.Content.Tiles.Decoration
 {
     public abstract class SplineBanner : ModTile
     {

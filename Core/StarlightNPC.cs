@@ -1,5 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Tiles.Vitric.Blocks;
+using StarlightRiver.Content.Tiles.Vitric;
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;

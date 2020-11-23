@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;
 using StarlightRiver.Core;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using StarlightRiver.Physics;
 using System;
 using System.Collections.Generic;

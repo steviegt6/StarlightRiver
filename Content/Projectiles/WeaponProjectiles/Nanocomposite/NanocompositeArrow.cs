@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Projectiles.WeaponProjectiles.Nanocomposite
+namespace StarlightRiver.Content.Projectiles.WeaponProjectiles.Nanocomposite
 {
     internal class NanocompositeArrow : ModProjectile
     {

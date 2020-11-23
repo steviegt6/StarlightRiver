@@ -1,7 +1,7 @@
 ﻿using Terraria.ModLoader;
 using Terraria;
 using Microsoft.Xna.Framework;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using Terraria.ID;
 using Terraria.ObjectData;
 using Terraria.DataStructures;

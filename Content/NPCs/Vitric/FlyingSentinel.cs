@@ -1,15 +1,16 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Projectiles.Dummies;
-using StarlightRiver.Tiles;
+using StarlightRiver.Content.Projectiles.Dummies;
+using StarlightRiver.Content.Tiles;
 using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Vitric
+namespace StarlightRiver.Content.NPCs.Vitric
 {
     class FlyingSentinel : ModNPC
     {

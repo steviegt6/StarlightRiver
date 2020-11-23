@@ -1,10 +1,11 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using StarlightRiver.Content.Projectiles.Dummies;
 using Terraria;
 using Terraria.ID;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
 namespace StarlightRiver.Content.Tiles.Overgrow

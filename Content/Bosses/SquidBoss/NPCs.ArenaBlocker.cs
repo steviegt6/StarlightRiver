@@ -5,7 +5,7 @@ using Terraria;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Boss.SquidBoss
+namespace StarlightRiver.Content.NPCs.Boss.SquidBoss
 {
     class ArenaBlocker : ModNPC
     {

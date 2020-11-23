@@ -1,12 +1,13 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.StarJuice
+namespace StarlightRiver.Content.Tiles.StarJuice
 {
     internal class CrystalBlock : ModTile
     {

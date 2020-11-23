@@ -7,7 +7,7 @@ using Terraria.ID;
 using static Terraria.ModLoader.ModContent;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace StarlightRiver.NPCs.Miniboss.Glassweaver
+namespace StarlightRiver.Content.NPCs.Miniboss.Glassweaver
 {
     class GlassHammer : ModProjectile
     {

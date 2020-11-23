@@ -1,7 +1,8 @@
 ﻿using Terraria.ModLoader;
 using Terraria;
-using StarlightRiver.Tiles;
+using StarlightRiver.Content.Tiles;
 using Microsoft.Xna.Framework;
+using StarlightRiver.Core;
 
 namespace StarlightRiver.Pickups
 {

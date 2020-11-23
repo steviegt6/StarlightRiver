@@ -1,10 +1,10 @@
-﻿using StarlightRiver.Items.Aluminum;
+﻿using StarlightRiver.Content.Items.Aluminum;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Armor.Aluminum
+namespace StarlightRiver.Content.Items.Armor.Aluminum
 {
     class AluminumArmor
     {

@@ -2,7 +2,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Projectiles
+namespace StarlightRiver.Content.Projectiles
 {
     public abstract class SpearProjectile : ModProjectile
     {

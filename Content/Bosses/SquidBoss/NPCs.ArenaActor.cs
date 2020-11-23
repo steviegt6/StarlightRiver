@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Items.Permafrost;
-using StarlightRiver.Tiles.Permafrost;
+using StarlightRiver.Content.Items.Permafrost;
+using StarlightRiver.Content.Tiles.Permafrost;
 using System;
 using System.Linq;
 using Terraria;
@@ -10,11 +10,11 @@ using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 using Terraria.Graphics.Effects;
 
-namespace StarlightRiver.NPCs.Boss.SquidBoss
+namespace StarlightRiver.Content.Bosses.SquidBoss
 {
     class ArenaActor : ModNPC
     {
-        int whitelistID = WallType<AuroraBrickWall>();
+        readonly int whitelistID = WallType<AuroraBrickWall>();
         public float WaterLevel { get => npc.Center.Y + 35 * 16 - npc.ai[0]; }
 
         public override string Texture => "StarlightRiver/Invisible";

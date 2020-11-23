@@ -8,7 +8,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Abilities.Content.ForbiddenWinds
+namespace StarlightRiver.Content.Abilities.Content.ForbiddenWinds
 {
     public class Blink : InfusionItem<Dash>
     {

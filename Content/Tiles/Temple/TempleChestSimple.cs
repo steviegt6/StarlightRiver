@@ -1,11 +1,12 @@
 ﻿using Microsoft.Xna.Framework;
 using System.Collections.Generic;
 using Terraria.ID;
-using StarlightRiver.Items.Herbology.Materials;
+using StarlightRiver.Content.Items.Herbology.Materials;
 using static Terraria.ModLoader.ModContent;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
+using StarlightRiver.Core;
 
-namespace StarlightRiver.Tiles.Temple
+namespace StarlightRiver.Content.Tiles.Temple
 {
     class TempleChestSimple : LootChest
     {

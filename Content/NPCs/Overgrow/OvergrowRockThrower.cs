@@ -6,7 +6,7 @@ using Terraria;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Hostile
+namespace StarlightRiver.Content.NPCs.Hostile
 {
     internal class OvergrowRockThrower : ModNPC
     {

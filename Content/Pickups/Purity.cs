@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Abilities;
-using StarlightRiver.Abilities.Content.Purify;
+using StarlightRiver.Content.Abilities;
+using StarlightRiver.Content.Abilities.Content.Purify;
 using StarlightRiver.Codex.Entries;
 using StarlightRiver.Dusts;
 using System;
@@ -10,7 +10,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Pickups
+namespace StarlightRiver.Content.NPCs.Pickups
 {
     internal class Purity : ModNPC
     {

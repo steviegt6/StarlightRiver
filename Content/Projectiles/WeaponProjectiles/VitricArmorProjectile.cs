@@ -8,7 +8,7 @@ using Terraria.DataStructures;
 using StarlightRiver.Dusts;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Projectiles.WeaponProjectiles
+namespace StarlightRiver.Content.Projectiles.WeaponProjectiles
 {
     internal class VitricArmorProjectile : ModProjectile
     {

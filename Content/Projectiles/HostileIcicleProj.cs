@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 using System;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Projectiles
+namespace StarlightRiver.Content.Projectiles
 {
     public class HostileIcicleProj : ModProjectile
     {

@@ -1,10 +1,10 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Abilities;
+using StarlightRiver.Content.Abilities;
 using StarlightRiver.GUI;
-using StarlightRiver.Items.Armor;
-using StarlightRiver.NPCs.Boss.SquidBoss;
-using StarlightRiver.Tiles.Permafrost;
-using StarlightRiver.Tiles.Vitric.Blocks;
+using StarlightRiver.Content.Items.Armor;
+using StarlightRiver.Content.NPCs.Boss.SquidBoss;
+using StarlightRiver.Content.Tiles.Permafrost;
+using StarlightRiver.Content.Tiles.Vitric;
 using System;
 using System.Collections.Generic;
 using System.Linq;

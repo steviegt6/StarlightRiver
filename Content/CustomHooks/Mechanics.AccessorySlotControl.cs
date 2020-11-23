@@ -1,6 +1,6 @@
 using Microsoft.Xna.Framework;
-using StarlightRiver.Items;
-using StarlightRiver.Tiles;
+using StarlightRiver.Content.Items;
+using StarlightRiver.Content.Tiles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Terraria.ModLoader;
 using Terraria;
-using StarlightRiver.Items.CursedAccessories;
+using StarlightRiver.Content.Items.CursedAccessories;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Items.Prototypes;
+using StarlightRiver.Content.Items.Prototypes;
 using Terraria.UI;
 
 namespace StarlightRiver.Content.CustomHooks

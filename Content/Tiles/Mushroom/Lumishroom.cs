@@ -4,18 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Terraria.ModLoader;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using static Terraria.ModLoader.ModContent;
 using Terraria.ID;
-using StarlightRiver.Projectiles.Dummies;
+using StarlightRiver.Content.Projectiles.Dummies;
 using Terraria;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria.ObjectData;
 using Terraria.Enums;
 using Terraria.DataStructures;
+using StarlightRiver.Core;
 
-namespace StarlightRiver.Tiles.Mushroom
+namespace StarlightRiver.Content.Tiles.Mushroom
 {
     class Lumishroom : ModTile
     {

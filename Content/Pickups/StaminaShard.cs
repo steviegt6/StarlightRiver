@@ -1,9 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Abilities;
+using StarlightRiver.Content.Abilities;
 using System;
 using static Terraria.ModLoader.ModContent;
 using Terraria;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using StarlightRiver.Codex.Entries;
 
 namespace StarlightRiver.Pickups

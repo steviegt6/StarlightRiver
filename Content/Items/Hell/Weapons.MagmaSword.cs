@@ -9,7 +9,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Hell
+namespace StarlightRiver.Content.Items.Hell
 {
     class MagmaSword : ModItem, IGlowingItem
     {

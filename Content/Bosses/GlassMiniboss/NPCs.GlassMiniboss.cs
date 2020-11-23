@@ -6,7 +6,7 @@ using System.IO;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-namespace StarlightRiver.NPCs.Miniboss.Glassweaver
+namespace StarlightRiver.Content.NPCs.Miniboss.Glassweaver
 {
     internal partial class GlassMiniboss : ModNPC
     {

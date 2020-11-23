@@ -8,7 +8,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Prototypes.Materials
+namespace StarlightRiver.Content.Items.Prototypes.Materials
 {
     class GrabBag : ModItem
     {

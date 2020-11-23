@@ -1,11 +1,11 @@
 ﻿using StarlightRiver.Core;
-using StarlightRiver.Items.Herbology.Materials;
+using StarlightRiver.Content.Items.Herbology.Materials;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Armor.ForestIvy
+namespace StarlightRiver.Content.Items.Armor.ForestIvy
 {
     [AutoloadEquip(EquipType.Head)]
     public class ForestIvyHead : ModItem

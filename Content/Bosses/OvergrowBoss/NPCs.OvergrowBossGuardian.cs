@@ -9,7 +9,7 @@ using Terraria.Graphics.Shaders;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Boss.OvergrowBoss
+namespace StarlightRiver.Content.NPCs.Boss.OvergrowBoss
 {
     internal class OvergrowBossGuardian : ModNPC
     {

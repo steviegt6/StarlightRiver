@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using System.Linq;
 using Terraria;
 using Terraria.ModLoader;
@@ -40,5 +40,5 @@ namespace StarlightRiver.Content.Tiles.Overgrow
         }
     }
 
-    public class CrusherOvergrowItem : QuickTileItem { public CrusherOvergrowItem() : base("Crusher Trap", "", TileType<CrusherTile>(), 0, OvergrowTileLoader.OvergrowItemDir + "CrusherOvergrowItem") { } }
+    public class CrusherOvergrowItem : QuickTileItem { public CrusherOvergrowItem() : base("Crusher Trap", "", TileType<CrusherTile>(), 0, OvergrowTileLoader.OvergrowTileDir + "CrusherOvergrowItem") { } }
 }

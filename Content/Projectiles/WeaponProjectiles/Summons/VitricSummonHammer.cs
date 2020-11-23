@@ -8,12 +8,12 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
-using StarlightRiver.NPCs;
+using StarlightRiver.Content.NPCs;
 using StarlightRiver.Core;
 using StarlightRiver.Buffs.Summon;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Projectiles.WeaponProjectiles.Summons
+namespace StarlightRiver.Content.Projectiles.WeaponProjectiles.Summons
 {
 
 	public class VitricSummonHammer : ModProjectile
@@ -233,7 +233,7 @@ namespace StarlightRiver.Projectiles.WeaponProjectiles.Summons
         }
 	}
 
-	class ShockwaveSummon : NPCs.Miniboss.Glassweaver.Shockwave
+	class ShockwaveSummon : Content.NPCs.Miniboss.Glassweaver.Shockwave
 	{
 		public override string Texture => "StarlightRiver/Tiles/Vitric/Blocks/AncientSandstone";
 

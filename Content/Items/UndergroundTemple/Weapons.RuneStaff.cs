@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Temple.DashLocked
+namespace StarlightRiver.Content.Items.Temple.DashLocked
 {
     class RuneStaff : ModItem
     {

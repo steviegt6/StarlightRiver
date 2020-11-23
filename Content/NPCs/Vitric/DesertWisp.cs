@@ -1,11 +1,11 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Abilities;
-using StarlightRiver.Abilities.Content.Faeflame;
+using StarlightRiver.Content.Abilities;
+using StarlightRiver.Content.Abilities.Content.Faeflame;
 using Terraria;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Passive
+namespace StarlightRiver.Content.NPCs.Passive
 {
     internal class DesertWisp : ModNPC
     {

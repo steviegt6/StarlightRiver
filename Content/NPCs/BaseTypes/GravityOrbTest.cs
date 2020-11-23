@@ -9,7 +9,7 @@ using Terraria;
 using Microsoft.Xna.Framework.Graphics;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs
+namespace StarlightRiver.Content.NPCs
 {
     class GravityOrbTest : ModNPC, IDrawAdditive
     {

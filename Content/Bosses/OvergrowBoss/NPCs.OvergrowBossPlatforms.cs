@@ -2,7 +2,7 @@
 using System;
 using Terraria;
 
-namespace StarlightRiver.NPCs.Boss.OvergrowBoss
+namespace StarlightRiver.Content.NPCs.Boss.OvergrowBoss
 {
     internal class OvergrowBossVerticalPlatform : MovingPlatform
     {

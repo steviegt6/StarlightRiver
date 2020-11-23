@@ -1,11 +1,12 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
+using StarlightRiver.Core;
 
-namespace StarlightRiver.Tiles.Vitric
+namespace StarlightRiver.Content.Tiles.Vitric
 {
     internal class VitricSoftSand : ModTile
     {

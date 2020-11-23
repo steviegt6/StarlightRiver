@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StarlightRiver.Core;
-using StarlightRiver.Items.CursedAccessories;
+using StarlightRiver.Content.Items.CursedAccessories;
 using StarlightRiver.Physics;
 using System;
 using System.Collections.Generic;

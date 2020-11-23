@@ -1,16 +1,17 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Abilities;
-using StarlightRiver.Abilities.Content;
-using StarlightRiver.Items;
-using StarlightRiver.Projectiles.Dummies;
+using StarlightRiver.Content.Abilities;
+using StarlightRiver.Content.Abilities.Content;
+using StarlightRiver.Content.Items;
+using StarlightRiver.Content.Projectiles.Dummies;
 using System;
 using System.Linq;
 using Terraria;
 using Terraria.ID;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Interactive
+namespace StarlightRiver.Content.Tiles.Interactive
 {
     internal class StaminaGem : DummyTile
     {

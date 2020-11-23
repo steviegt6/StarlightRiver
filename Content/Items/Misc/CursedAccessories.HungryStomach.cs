@@ -3,10 +3,10 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using static Terraria.ModLoader.ModContent;
-using StarlightRiver.Abilities;
+using StarlightRiver.Content.Abilities;
 using System;
 
-namespace StarlightRiver.Items.CursedAccessories
+namespace StarlightRiver.Content.Items.CursedAccessories
 {
     internal class HungryStomach : CursedAccessory
     {

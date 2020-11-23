@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 
-namespace StarlightRiver.Items.Palestone
+namespace StarlightRiver.Content.Items.Palestone
 {
     public class PalestoneHammer : ModItem
     {

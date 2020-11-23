@@ -2,14 +2,15 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
 using static Terraria.ModLoader.ModContent;
-using StarlightRiver.Projectiles.Dummies;
+using StarlightRiver.Content.Projectiles.Dummies;
 using Terraria.ID;
 using Terraria.ObjectData;
 using Terraria.DataStructures;
 using Terraria.Enums;
 using StarlightRiver.Physics;
+using StarlightRiver.Core;
 
-namespace StarlightRiver.Tiles
+namespace StarlightRiver.Content.Tiles
 {
     class VerletBanner : DummyTile
 	{

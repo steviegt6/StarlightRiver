@@ -1,6 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
 using StarlightRiver.Noise;
-using StarlightRiver.Tiles.Vitric;
 using StarlightRiver.Content.Tiles.Vitric;
 using System;
 using System.Collections.Generic;
@@ -11,6 +10,7 @@ using Terraria.ModLoader;
 using Terraria.World.Generation;
 using Terraria.ID;
 using static Terraria.ModLoader.ModContent;
+using static StarlightRiver.StarlightWorld;
 using static Terraria.WorldGen;
 
 namespace StarlightRiver.Content.WorldGeneration

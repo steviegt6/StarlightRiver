@@ -9,7 +9,7 @@ using Terraria.DataStructures;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace StarlightRiver.Tiles.Rift
+namespace StarlightRiver.Content.Tiles.Rift
 {
     class MainRift : ModTile
     {

@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 using static Terraria.ModLoader.ModContent;
 using Terraria;
 using Terraria.ID;
-using StarlightRiver.Projectiles.Dummies;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Projectiles.Dummies;
+using StarlightRiver.Content.Items;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StarlightRiver.Core;
-using StarlightRiver.Abilities;
+using StarlightRiver.Content.Abilities;
 
-namespace StarlightRiver.Tiles.Vitric.Temple
+namespace StarlightRiver.Content.Tiles.Vitric.Temple
 {
     class TutorialDoor1 : DummyTile
     {

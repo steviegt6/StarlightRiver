@@ -10,6 +10,12 @@ namespace StarlightRiver.Content.Tiles.Overgrow
 {
     internal class HatchOvergrow : ModTile
     {
+        public override bool Autoload(ref string name, ref string texture)
+        {
+            texture = OvergrowTileLoader.OvergrowTileDir + "HatchOvergrow";
+            return true;
+        }
+
         public override void SetDefaults()
         {
             Main.tileLavaDeath[Type] = false;

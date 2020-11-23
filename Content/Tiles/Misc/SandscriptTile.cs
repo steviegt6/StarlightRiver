@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Misc
+namespace StarlightRiver.Content.Tiles.Misc
 {
     internal class SandscriptTile : ModTile
     {

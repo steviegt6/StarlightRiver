@@ -2,7 +2,7 @@
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Herbology.Materials
+namespace StarlightRiver.Content.Items.Herbology.Materials
 {
     public class BlendForest : QuickMaterial
     {

@@ -1,10 +1,10 @@
-﻿using StarlightRiver.Items.Vitric;
+﻿using StarlightRiver.Content.Items.Vitric;
 using System.Runtime.InteropServices;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.NPCs.Miniboss.Glassweaver
+namespace StarlightRiver.Content.NPCs.Miniboss.Glassweaver
 {
     [AutoloadHead]
     class GlassweaverTown : ModNPC

@@ -7,11 +7,11 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
-using StarlightRiver.NPCs;
+using StarlightRiver.Content.NPCs;
 using StarlightRiver.Core;
 using StarlightRiver.Buffs.Summon;
 
-namespace StarlightRiver.Projectiles.WeaponProjectiles.Summons
+namespace StarlightRiver.Content.Projectiles.WeaponProjectiles.Summons
 {
 
 	public class VitricSummonArmor : ModProjectile

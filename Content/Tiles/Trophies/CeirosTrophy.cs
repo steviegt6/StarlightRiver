@@ -1,12 +1,13 @@
 ﻿using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using Terraria.ID;
 using Microsoft.Xna.Framework;
 using Terraria.ObjectData;
 using Terraria;
+using StarlightRiver.Core;
 
-namespace StarlightRiver.Tiles.Trophies
+namespace StarlightRiver.Content.Tiles.Trophies
 {
     class CeirosTrophy : ModTile
     {

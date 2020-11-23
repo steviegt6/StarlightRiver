@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Items;
-using StarlightRiver.Tiles;
+using StarlightRiver.Content.Items;
+using StarlightRiver.Content.Tiles;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Projectiles.Ammo
+namespace StarlightRiver.Content.Projectiles.Ammo
 {
     internal class VitricArrow : ModProjectile
     {

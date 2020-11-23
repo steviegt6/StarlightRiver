@@ -1,4 +1,4 @@
-﻿namespace StarlightRiver.Items.Accessories
+﻿namespace StarlightRiver.Content.Items.Accessories
 {
     public class ShockAbsorber : SmartAccessory
     {

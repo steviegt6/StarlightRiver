@@ -6,7 +6,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Boss.VitricBoss
+namespace StarlightRiver.Content.NPCs.Boss.VitricBoss
 {
     internal class GlassVolley : ModProjectile, IDrawAdditive
     {

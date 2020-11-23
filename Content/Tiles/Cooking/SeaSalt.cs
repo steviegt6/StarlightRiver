@@ -8,8 +8,9 @@ using Terraria.ID;
 using Terraria;
 using static Terraria.ModLoader.ModContent;
 using Microsoft.Xna.Framework;
+using StarlightRiver.Core;
 
-namespace StarlightRiver.Tiles.Cooking
+namespace StarlightRiver.Content.Tiles.Cooking
 {
     class SeaSalt : ModTile
     {

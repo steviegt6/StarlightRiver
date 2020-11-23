@@ -2,9 +2,9 @@
 using StarlightRiver.Codex;
 using StarlightRiver.Codex.Entries;
 using StarlightRiver.GUI;
-using StarlightRiver.Tiles;
-using StarlightRiver.Tiles.AshHell;
-using StarlightRiver.Tiles.Permafrost;
+using StarlightRiver.Content.Tiles;
+using StarlightRiver.Content.Tiles.AshHell;
+using StarlightRiver.Content.Tiles.Permafrost;
 using System.IO;
 using System.Linq;
 using Terraria;
@@ -42,9 +42,9 @@ namespace StarlightRiver
             ZoneJungleCorrupt = (StarlightWorld.corruptJungleTiles > 50);
             ZoneJungleBloody = (StarlightWorld.bloodJungleTiles > 50);
             ZoneJungleHoly = (StarlightWorld.holyJungleTiles > 50);
-            ZoneOvergrow = Main.tile[(int)(player.Center.X / 16), (int)(player.Center.Y / 16)].wall == WallType<Tiles.Overgrow.WallOvergrowGrass>() ||
-                Main.tile[(int)(player.Center.X / 16), (int)(player.Center.Y / 16)].wall == WallType<Tiles.Overgrow.WallOvergrowBrick>() ||
-                Main.tile[(int)(player.Center.X / 16), (int)(player.Center.Y / 16)].wall == WallType<Tiles.Overgrow.WallOvergrowInvisible>();
+            ZoneOvergrow = Main.tile[(int)(player.Center.X / 16), (int)(player.Center.Y / 16)].wall == WallType<Content.Tiles.Overgrow.WallOvergrowGrass>() ||
+                Main.tile[(int)(player.Center.X / 16), (int)(player.Center.Y / 16)].wall == WallType<Content.Tiles.Overgrow.WallOvergrowBrick>() ||
+                Main.tile[(int)(player.Center.X / 16), (int)(player.Center.Y / 16)].wall == WallType<Content.Tiles.Overgrow.WallOvergrowInvisible>();
             zoneAluminum = StarlightWorld.aluminumTiles > 50;
             zonePermafrost = StarlightWorld.permafrostTiles > 50;
             zoneAshhell = StarlightWorld.ashHellTiles > 50;
@@ -178,11 +178,11 @@ namespace StarlightRiver
 
         public override void TileCountsAvailable(int[] tileCounts)
         {
-            glassTiles = tileCounts[TileType<Tiles.Vitric.Blocks.VitricSand>()];
-            voidTiles = tileCounts[TileType<Tiles.Void.VoidBrick>()] + tileCounts[TileType<Tiles.Void.VoidStone>()];
-            corruptJungleTiles = tileCounts[TileType<Tiles.JungleCorrupt.GrassJungleCorrupt>()];
-            bloodJungleTiles = tileCounts[TileType<Tiles.JungleBloody.GrassJungleBloody>()];
-            holyJungleTiles = tileCounts[TileType<Tiles.JungleHoly.GrassJungleHoly>()];
+            glassTiles = tileCounts[TileType<Content.Tiles.Vitric.VitricSand>()];
+            voidTiles = tileCounts[TileType<Content.Tiles.Void.VoidBrick>()] + tileCounts[TileType<Content.Tiles.Void.VoidStone>()];
+            corruptJungleTiles = tileCounts[TileType<Content.Tiles.JungleCorrupt.GrassJungleCorrupt>()];
+            bloodJungleTiles = tileCounts[TileType<Content.Tiles.JungleBloody.GrassJungleBloody>()];
+            holyJungleTiles = tileCounts[TileType<Content.Tiles.JungleHoly.GrassJungleHoly>()];
             aluminumTiles = tileCounts[TileType<OreAluminum>()];
             permafrostTiles = tileCounts[TileType<PermafrostIce>()];
             ashHellTiles = tileCounts[TileType<MagicAsh>()];

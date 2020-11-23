@@ -1,11 +1,11 @@
-using StarlightRiver.Items.CursedAccessories;
+using StarlightRiver.Content.Items.CursedAccessories;
 using System.Linq;
 using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.NPCs.Town
+namespace StarlightRiver.Content.NPCs.Town
 {
     [AutoloadHead]
     public class Hex : ModNPC

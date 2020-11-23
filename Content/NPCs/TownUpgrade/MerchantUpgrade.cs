@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Terraria;
 
-namespace StarlightRiver.NPCs.TownUpgrade
+namespace StarlightRiver.Content.NPCs.TownUpgrade
 {
     class MerchantUpgrade : TownUpgrade
     {

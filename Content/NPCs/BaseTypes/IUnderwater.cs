@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 
-namespace StarlightRiver.NPCs
+namespace StarlightRiver.Content.NPCs
 {
     interface IUnderwater
     {

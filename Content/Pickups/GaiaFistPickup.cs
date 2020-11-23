@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Abilities;
-using StarlightRiver.Abilities.Content.GaiasFist;
+using StarlightRiver.Content.Abilities;
+using StarlightRiver.Content.Abilities.Content.GaiasFist;
 using StarlightRiver.Core;
 using System;
 using Terraria;

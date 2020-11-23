@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Terraria.ID;
 
-namespace StarlightRiver.Abilities.Content.Infusions
+namespace StarlightRiver.Content.Abilities.Content.Infusions
 {
     class BasicInfusion : InfusionItem
     {

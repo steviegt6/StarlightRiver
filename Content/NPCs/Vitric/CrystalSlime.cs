@@ -1,15 +1,15 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Abilities;
-using StarlightRiver.Abilities.Content;
-using StarlightRiver.Abilities.Content.ForbiddenWinds;
+using StarlightRiver.Content.Abilities;
+using StarlightRiver.Content.Abilities.Content;
+using StarlightRiver.Content.Abilities.Content.ForbiddenWinds;
 using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Hostile
+namespace StarlightRiver.Content.NPCs.Hostile
 {
     internal class CrystalSlime : ModNPC
     {
@@ -99,12 +99,12 @@ namespace StarlightRiver.NPCs.Hostile
 
         public override float SpawnChance(NPCSpawnInfo spawnInfo)
         {
-            return (spawnInfo.player.GetHandler().Unlocked<Abilities.Content.ForbiddenWinds.Dash>() && spawnInfo.player.ZoneRockLayerHeight && spawnInfo.player.GetModPlayer<BiomeHandler>().ZoneGlass) ? 1f : 0f;
+            return (spawnInfo.player.GetHandler().Unlocked<Content.Abilities.Content.ForbiddenWinds.Dash>() && spawnInfo.player.ZoneRockLayerHeight && spawnInfo.player.GetModPlayer<BiomeHandler>().ZoneGlass) ? 1f : 0f;
         }
 
         public override void NPCLoot()
         {
-            if (Main.rand.NextFloat() < 0.50f) { Item.NewItem(npc.getRect(), ItemType<Items.Vitric.VitricOre>(), Main.rand.Next(4, 5)); }
+            if (Main.rand.NextFloat() < 0.50f) { Item.NewItem(npc.getRect(), ItemType<Content.Items.Vitric.VitricOre>(), Main.rand.Next(4, 5)); }
             Item.NewItem(npc.getRect(), ItemID.Gel, Main.rand.Next(5, 6));
         }
 

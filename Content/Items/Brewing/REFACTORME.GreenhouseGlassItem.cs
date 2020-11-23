@@ -2,7 +2,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Herbology
+namespace StarlightRiver.Content.Items.Herbology
 {
     public class GreenhouseGlassItem : QuickTileItem
     {

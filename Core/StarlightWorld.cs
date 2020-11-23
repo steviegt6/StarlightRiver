@@ -2,8 +2,8 @@
 using Microsoft.Xna.Framework.Graphics;
 using StarlightRiver.Core;
 using StarlightRiver.Keys;
-using StarlightRiver.NPCs.Boss.SquidBoss;
-using StarlightRiver.NPCs.TownUpgrade;
+using StarlightRiver.Content.NPCs.Boss.SquidBoss;
+using StarlightRiver.Content.NPCs.TownUpgrade;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,6 +13,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 using Terraria.World.Generation;
+using static StarlightRiver.Content.WorldGeneration.StarlightWorld;
 using static Terraria.ModLoader.ModContent;
 
 namespace StarlightRiver
@@ -92,7 +93,7 @@ namespace StarlightRiver
 
                 if (Main.tile[x, y].type == TileID.Dirt && Math.Abs(x - Main.maxTilesX / 2) >= Main.maxTilesX / 6)
                 {
-                    WorldGen.TileRunner(x, y, WorldGen.genRand.Next(10, 11), 1, TileType<Tiles.OreEbony>(), false, 0f, 0f, false, true);
+                    WorldGen.TileRunner(x, y, WorldGen.genRand.Next(10, 11), 1, TileType<Content.Tiles.OreEbony>(), false, 0f, 0f, false, true);
                 }
             }
         }
@@ -110,8 +111,8 @@ namespace StarlightRiver
                 PureTiles.Clear();
 
             //SquidBoss arena
-            if (!Main.npc.Any(n => n.active && n.type == NPCType<ArenaActor>()))
-                NPC.NewNPC(SquidBossArena.Center.X * 16 + 8, SquidBossArena.Center.Y * 16 + 56 * 16, NPCType<ArenaActor>());
+            if (!Main.npc.Any(n => n.active && n.type == NPCType<Content.Bosses.SquidBoss.ArenaActor>()))
+                NPC.NewNPC(SquidBossArena.Center.X * 16 + 8, SquidBossArena.Center.Y * 16 + 56 * 16, NPCType<Content.Bosses.SquidBoss.ArenaActor>());
 
             //Keys
             foreach (Key key in Keys) key.Update();
@@ -124,7 +125,7 @@ namespace StarlightRiver
                 Tile tile = Framing.GetTileSafely((int)Main.LocalPlayer.Center.X / 16, (int)Main.LocalPlayer.Center.Y / 16);
 
                 cathedralOverlay.fade = 
-                    tile.wall == WallType<Tiles.Permafrost.AuroraBrickWall>() &&
+                    tile.wall == WallType<Content.Tiles.Permafrost.AuroraBrickWall>() &&
                     !Main.LocalPlayer.GetModPlayer<StarlightPlayer>().trueInvisible;
 
                 cathedralOverlay.Draw();

@@ -6,8 +6,9 @@ using Terraria;
 using static Terraria.ModLoader.ModContent;
 using StarlightRiver.Content.Projectiles.Dummies;
 using Terraria.ID;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using Terraria.DataStructures;
+using StarlightRiver.Core;
 
 namespace StarlightRiver.Content.Tiles.Overgrow
 {

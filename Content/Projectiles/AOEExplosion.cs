@@ -1,6 +1,6 @@
 ﻿using Terraria.ModLoader;
 
-namespace StarlightRiver.Projectiles
+namespace StarlightRiver.Content.Projectiles
 {
     public class AOEExplosion : ModProjectile
     {

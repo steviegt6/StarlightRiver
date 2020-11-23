@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Purified
+namespace StarlightRiver.Content.Tiles.Purified
 {
     internal class StonePure : ModTile
     {

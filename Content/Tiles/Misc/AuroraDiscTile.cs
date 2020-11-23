@@ -1,13 +1,14 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StarlightRiver.Dusts;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using StarlightRiver.Content.Projectiles.Dummies;
 using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using StarlightRiver.Content.Items.Permafrost.Weapons;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
 namespace StarlightRiver.Content.Tiles.Misc

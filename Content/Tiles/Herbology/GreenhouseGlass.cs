@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Tiles.Herbology
+namespace StarlightRiver.Content.Tiles.Herbology
 {
     public class GreenhouseGlass : ModTile
     {

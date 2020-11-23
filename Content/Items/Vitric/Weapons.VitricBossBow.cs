@@ -5,10 +5,10 @@ using static Terraria.ModLoader.ModContent;
 using Microsoft.Xna.Framework;
 using Terraria.ID;
 using Terraria.DataStructures;
-using StarlightRiver.Projectiles.WeaponProjectiles;
+using StarlightRiver.Content.Projectiles.WeaponProjectiles;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace StarlightRiver.Items.BossDrops.VitricBossDrops
+namespace StarlightRiver.Content.Items.BossDrops.VitricBossDrops
 {
     class VitricBossBow : ModItem,IGlowingItem
     {

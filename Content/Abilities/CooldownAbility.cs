@@ -1,4 +1,4 @@
-﻿namespace StarlightRiver.Abilities
+﻿namespace StarlightRiver.Content.Abilities
 {
     public abstract class CooldownAbility : Ability
     {

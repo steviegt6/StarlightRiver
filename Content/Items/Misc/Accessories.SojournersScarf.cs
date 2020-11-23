@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ModLoader;
 using StarlightRiver.Core;
 
-namespace StarlightRiver.Items.Accessories.EarlyPreHardmode
+namespace StarlightRiver.Content.Items.Accessories.EarlyPreHardmode
 {
     public class SojournersScarf : SmartAccessory, IChestItem
     {

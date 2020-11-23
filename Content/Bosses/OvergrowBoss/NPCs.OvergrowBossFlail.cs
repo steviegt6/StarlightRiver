@@ -8,7 +8,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Boss.OvergrowBoss
+namespace StarlightRiver.Content.NPCs.Boss.OvergrowBoss
 {
     public class OvergrowBossFlail : ModNPC, IDrawAdditive
     {

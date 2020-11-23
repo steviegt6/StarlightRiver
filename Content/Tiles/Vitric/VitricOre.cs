@@ -1,13 +1,14 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Abilities;
-using StarlightRiver.Projectiles.Dummies;
+using StarlightRiver.Content.Abilities;
+using StarlightRiver.Content.Projectiles.Dummies;
 using System;
 using Terraria;
 using Terraria.ID;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Vitric
+namespace StarlightRiver.Content.Tiles.Vitric
 {
     internal class VitricOre : DummyTile
     {

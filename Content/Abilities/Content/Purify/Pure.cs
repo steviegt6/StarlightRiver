@@ -1,13 +1,13 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Projectiles.Ability;
+using StarlightRiver.Content.Projectiles.Ability;
 using System.Linq;
 using Terraria;
 using Terraria.GameInput;
 using Terraria.ID;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Abilities.Content.Purify
+namespace StarlightRiver.Content.Abilities.Content.Purify
 {
     public class Pure : Ability
     {

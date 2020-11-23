@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.NPCs.Boss.SquidBoss;
+using StarlightRiver.Content.NPCs.Boss.SquidBoss;
 using Terraria;
 
 

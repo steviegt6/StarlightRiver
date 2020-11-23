@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Abilities;
-using StarlightRiver.Abilities.Content.Faeflame;
+using StarlightRiver.Content.Abilities;
+using StarlightRiver.Content.Abilities.Content.Faeflame;
 using System;
 using System.Linq;
 using Terraria;
@@ -11,7 +11,7 @@ using Terraria.ModLoader;
 using Terraria.ObjectData;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Interactive
+namespace StarlightRiver.Content.Tiles.Interactive
 {
     internal class WispSwitch : ModTile
     {

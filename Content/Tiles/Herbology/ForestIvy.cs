@@ -7,10 +7,10 @@ using Terraria.Enums;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
-using StarlightRiver.Items.Herbology.Materials;
+using StarlightRiver.Content.Items.Herbology.Materials;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Herbology
+namespace StarlightRiver.Content.Tiles.Herbology
 {
     internal class ForestIvy : HangingPlant
     {

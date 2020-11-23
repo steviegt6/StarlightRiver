@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Interactive
+namespace StarlightRiver.Content.Tiles.Interactive
 {
     internal class StaminaOrb : ModTile
     {

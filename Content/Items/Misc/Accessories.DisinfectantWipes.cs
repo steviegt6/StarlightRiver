@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using StarlightRiver.Core;
 using StarlightRiver.Dusts;
-using StarlightRiver.Projectiles.Ammo;
+using StarlightRiver.Content.Projectiles.Ammo;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Items.Accessories.EarlyPreHardmode
+namespace StarlightRiver.Content.Items.Accessories.EarlyPreHardmode
 {
     public class DisinfectantWipes : SmartAccessory
     {

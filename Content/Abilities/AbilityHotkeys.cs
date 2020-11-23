@@ -1,8 +1,8 @@
-﻿using StarlightRiver.Abilities.Content;
-using StarlightRiver.Abilities.Content.Faeflame;
-using StarlightRiver.Abilities.Content.ForbiddenWinds;
-using StarlightRiver.Abilities.Content.GaiasFist;
-using StarlightRiver.Abilities.Content.Purify;
+﻿using StarlightRiver.Content.Abilities.Content;
+using StarlightRiver.Content.Abilities.Content.Faeflame;
+using StarlightRiver.Content.Abilities.Content.ForbiddenWinds;
+using StarlightRiver.Content.Abilities.Content.GaiasFist;
+using StarlightRiver.Content.Abilities.Content.Purify;
 using StarlightRiver.Dusts;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Abilities
+namespace StarlightRiver.Content.Abilities
 {
     public class AbilityHotkeys
     {

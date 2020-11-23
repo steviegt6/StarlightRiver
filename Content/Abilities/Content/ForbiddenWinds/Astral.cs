@@ -8,7 +8,7 @@ using Terraria;
 using Terraria.ID;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Abilities.Content.ForbiddenWinds
+namespace StarlightRiver.Content.Abilities.Content.ForbiddenWinds
 {
     class Astral : InfusionItem<Dash>
     {

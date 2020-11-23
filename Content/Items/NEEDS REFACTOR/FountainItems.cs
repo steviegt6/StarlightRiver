@@ -1,6 +1,6 @@
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Fountains
+namespace StarlightRiver.Content.Items.Fountains
 {
     public class JungleCorruptFountainItem : QuickTileItem
     {

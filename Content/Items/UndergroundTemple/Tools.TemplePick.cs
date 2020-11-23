@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Temple
+namespace StarlightRiver.Content.Items.Temple
 {
     class TemplePick : ModItem
     {

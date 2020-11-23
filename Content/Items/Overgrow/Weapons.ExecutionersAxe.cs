@@ -1,10 +1,10 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using StarlightRiver.Projectiles.WeaponProjectiles;
+using StarlightRiver.Content.Projectiles.WeaponProjectiles;
 using Microsoft.Xna.Framework;
 
-namespace StarlightRiver.Items.Overgrow
+namespace StarlightRiver.Content.Items.Overgrow
 {
     public class ExecutionersAxe : ModItem
     {

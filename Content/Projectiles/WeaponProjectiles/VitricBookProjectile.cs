@@ -5,9 +5,9 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
-using StarlightRiver.NPCs;
+using StarlightRiver.Content.NPCs;
 
-namespace StarlightRiver.Projectiles.WeaponProjectiles
+namespace StarlightRiver.Content.Projectiles.WeaponProjectiles
 {
 
     internal class VitricBookSpikeTrap : ModProjectile

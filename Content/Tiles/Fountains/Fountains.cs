@@ -7,7 +7,7 @@ using Terraria.ModLoader;
 using Terraria.ObjectData;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Fountains
+namespace StarlightRiver.Content.Tiles.Fountains
 {
     // Main.LocalPlayer.GetModPlayer<BiomeHandler>().FountainJungleCorrupt
     public abstract class BiomeFountain : ModTile

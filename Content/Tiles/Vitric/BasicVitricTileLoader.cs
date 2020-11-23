@@ -12,7 +12,8 @@ namespace StarlightRiver.Content.Tiles.Vitric
 {
 	class BasicVitricTileLoader : TileLoader
 	{
-		public override string AssetRoot => "StarlightRiver/Assets/Tiles/Vitric";
+		public static string VitricTileDir = "StarlightRiver/Assets/Tiles/Vitric";
+		public override string AssetRoot => VitricTileDir;
 
 		public override void Load()
 		{

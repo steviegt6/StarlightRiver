@@ -1,9 +1,9 @@
-﻿using StarlightRiver.Items.Herbology.Materials;
+﻿using StarlightRiver.Content.Items.Herbology.Materials;
 using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Herbology.Potions
+namespace StarlightRiver.Content.Items.Herbology.Potions
 {
     internal class PotionForest : QuickPotion
     {

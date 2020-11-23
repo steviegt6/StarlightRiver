@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
-using StarlightRiver.Items.Armor;
+using StarlightRiver.Content.Items.Armor;
 
 namespace StarlightRiver.Content.Items.Starwood.Armors
 {
@@ -159,7 +159,7 @@ namespace StarlightRiver.Core
 
         public void StartStarwoodEmpowerment()
         {
-            if (player.armor[1].modItem is StarwoodChest && Items.Armor.ArmorHelper.IsSetEquipped(player.armor[1].modItem, player))//checks if complete, not completely needed but is there so empowered isnt true for a brief moment
+            if (player.armor[1].modItem is Content.Items.Starwood.Armors.StarwoodChest && ArmorHelper.IsSetEquipped(player.armor[1].modItem, player))//checks if complete, not completely needed but is there so empowered isnt true for a brief moment
             {
                 if (!Empowered)
                 {

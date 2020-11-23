@@ -1,7 +1,7 @@
 ﻿using Terraria;
 using Terraria.ID;
 
-namespace StarlightRiver.Items.Accessories
+namespace StarlightRiver.Content.Items.Accessories
 {
     public class MirageBoots : SmartAccessory
     {

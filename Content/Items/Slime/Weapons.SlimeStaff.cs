@@ -1,10 +1,10 @@
 using Microsoft.Xna.Framework;
-using StarlightRiver.Projectiles.WeaponProjectiles.Slime;
+using StarlightRiver.Content.Projectiles.WeaponProjectiles.Slime;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Items.Slime
+namespace StarlightRiver.Content.Items.Slime
 {
     public class SlimeStaff : ModItem
     {

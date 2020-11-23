@@ -8,11 +8,12 @@ using static Terraria.ModLoader.ModContent;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Microsoft.Xna.Framework;
-using StarlightRiver.Projectiles.Dummies;
+using StarlightRiver.Content.Projectiles.Dummies;
 using Terraria.DataStructures;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
+using StarlightRiver.Core;
 
-namespace StarlightRiver.Tiles.Vitric.Temple
+namespace StarlightRiver.Content.Tiles.Vitric.Temple
 {
     class WindsCrystal : DummyTile
     {

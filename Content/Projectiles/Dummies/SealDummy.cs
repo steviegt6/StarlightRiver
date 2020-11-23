@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Abilities;
-using StarlightRiver.Abilities.Content;
+using StarlightRiver.Content.Abilities;
+using StarlightRiver.Content.Abilities.Content;
 using StarlightRiver.Core;
 using Terraria;
 using Terraria.ID;

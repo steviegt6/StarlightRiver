@@ -1,10 +1,11 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Abilities;
+using StarlightRiver.Content.Abilities;
 using StarlightRiver.GUI;
-using StarlightRiver.Items.Armor;
-using StarlightRiver.NPCs.Boss.SquidBoss;
-using StarlightRiver.Tiles.Permafrost;
-using StarlightRiver.Tiles.Vitric.Blocks;
+using StarlightRiver.Content.Items;
+using StarlightRiver.Content.Items.Armor;
+using StarlightRiver.Content.NPCs.Boss.SquidBoss;
+using StarlightRiver.Content.Tiles.Permafrost;
+using StarlightRiver.Content.Tiles.Vitric;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -186,7 +187,7 @@ namespace StarlightRiver.Core
 
         public override void ModifyDrawLayers(List<PlayerLayer> layers)
         {
-            if (player.HeldItem.modItem is Items.Vitric.VitricSword && (player.HeldItem.modItem as Items.Vitric.VitricSword).Broken) PlayerLayer.HeldItem.visible = false;
+            if (player.HeldItem.modItem is Content.Items.Vitric.VitricSword && (player.HeldItem.modItem as Content.Items.Vitric.VitricSword).Broken) PlayerLayer.HeldItem.visible = false;
 
             Action<PlayerDrawInfo> layerTarget = DrawGlowmasks;
             PlayerLayer layer = new PlayerLayer("ItemLayer", "Starlight River Item Drawing Layer", layerTarget);
@@ -194,7 +195,7 @@ namespace StarlightRiver.Core
 
             void DrawGlowmasks(PlayerDrawInfo info)
             {
-                if (info.drawPlayer.HeldItem.modItem is Items.IGlowingItem) (info.drawPlayer.HeldItem.modItem as Items.IGlowingItem).DrawGlowmask(info);
+                if (info.drawPlayer.HeldItem.modItem is Content.Items.IGlowingItem) (info.drawPlayer.HeldItem.modItem as Content.Items.IGlowingItem).DrawGlowmask(info);
             }
             #region armor masks
             Action<PlayerDrawInfo> helmetTarget = DrawHelmetMask;

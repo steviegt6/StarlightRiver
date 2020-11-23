@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
-using StarlightRiver.Items.Herbology.Materials;
+using StarlightRiver.Content.Items.Herbology.Materials;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Hell
+namespace StarlightRiver.Content.Tiles.Hell
 {
     class HellChest : LootChest
     {

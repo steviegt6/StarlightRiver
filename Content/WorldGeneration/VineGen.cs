@@ -1,4 +1,4 @@
-﻿using StarlightRiver.Tiles.Decoration;
+﻿using StarlightRiver.Content.Tiles.Decoration;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;

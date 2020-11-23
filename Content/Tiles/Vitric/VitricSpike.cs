@@ -1,15 +1,22 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Vitric
+namespace StarlightRiver.Content.Tiles.Vitric
 {
     internal class VitricSpike : ModTile
     {
+        public override bool Autoload(ref string name, ref string texture)
+        {
+            texture = BasicVitricTileLoader.VitricTileDir + "VitricSpike";
+            return true;
+        }
+
         public override void SetDefaults()
         {
             minPick = int.MaxValue;

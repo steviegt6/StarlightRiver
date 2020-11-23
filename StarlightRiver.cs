@@ -1,6 +1,6 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Abilities;
+using StarlightRiver.Content.Abilities;
 using StarlightRiver.GUI;
 using StarlightRiver.RiftCrafting;
 using System;

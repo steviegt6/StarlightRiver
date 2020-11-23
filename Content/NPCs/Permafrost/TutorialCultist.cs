@@ -13,7 +13,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Passive
+namespace StarlightRiver.Content.NPCs.Passive
 {
     public class TutorialCultist : ModNPC
     {

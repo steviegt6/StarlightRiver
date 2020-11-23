@@ -1,6 +1,6 @@
 ﻿using Terraria;
 using Terraria.UI;
-using StarlightRiver.NPCs.TownUpgrade;
+using StarlightRiver.Content.NPCs.TownUpgrade;
 using static Terraria.ModLoader.ModContent;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;

@@ -6,7 +6,7 @@ using static Terraria.ModLoader.ModContent;
 using StarlightRiver.Dusts;
 using System;
 
-namespace StarlightRiver.Projectiles.WeaponProjectiles
+namespace StarlightRiver.Content.Projectiles.WeaponProjectiles
 {
     internal class ExplosiveFlare : ModProjectile
     {

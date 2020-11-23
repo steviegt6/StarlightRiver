@@ -4,11 +4,11 @@ using System.Drawing.Text;
 using Microsoft.Xna.Framework;
 using StarlightRiver.Dusts;
 using StarlightRiver.Gores;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.NPCs
+namespace StarlightRiver.Content.NPCs
 {
     public class BleedStack
     {

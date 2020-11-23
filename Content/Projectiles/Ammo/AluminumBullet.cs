@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Projectiles.Ammo
+namespace StarlightRiver.Content.Projectiles.Ammo
 {
     internal class AluminumBullet : ModProjectile
     {

@@ -13,7 +13,7 @@ using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 using Void = StarlightRiver.Dusts.Void;
 
-namespace StarlightRiver.Abilities.Content.Faeflame
+namespace StarlightRiver.Content.Abilities.Content.Faeflame
 {
     public class Wisp : Ability
     {

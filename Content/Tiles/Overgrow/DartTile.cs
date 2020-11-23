@@ -1,5 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using System.Linq;
 using Terraria;
 using Terraria.ID;
@@ -124,5 +124,5 @@ namespace StarlightRiver.Content.Tiles.Overgrow
         }
     }
 
-    public class DartOvergrowItem : QuickTileItem { public DartOvergrowItem() : base("Overgrow Dart Trap", "", TileType<DartTile>(), 0, OvergrowTileLoader.OvergrowItemDir + "DartOvergrowItem") { } }
+    public class DartOvergrowItem : QuickTileItem { public DartOvergrowItem() : base("Overgrow Dart Trap", "", TileType<DartTile>(), 0, OvergrowTileLoader.OvergrowTileDir + "DartOvergrowItem") { } }
 }

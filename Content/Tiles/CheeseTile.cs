@@ -1,10 +1,11 @@
 using Microsoft.Xna.Framework;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using Terraria.ID;
 using Terraria.ModLoader;
+using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles
+namespace StarlightRiver.Content.Tiles
 {
     internal class CheeseTile : ModTile
     { public override void SetDefaults() => QuickBlock.QuickSet(this, 0, DustID.AmberBolt, SoundID.Drown, new Color(255, 255, 200), ItemType<CheeseTileItem>(), true); }

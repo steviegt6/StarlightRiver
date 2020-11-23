@@ -2,7 +2,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Ammo
+namespace StarlightRiver.Content.Items.Ammo
 {
     public class VitricArrow : ModItem
     {

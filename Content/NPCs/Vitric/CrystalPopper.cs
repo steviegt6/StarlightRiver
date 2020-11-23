@@ -1,12 +1,12 @@
 using Microsoft.Xna.Framework;
-using StarlightRiver.Tiles.Vitric.Blocks;
+using StarlightRiver.Content.Tiles.Vitric;
 using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.Hostile
+namespace StarlightRiver.Content.NPCs.Hostile
 {
     internal class CrystalPopper : ModNPC
     {

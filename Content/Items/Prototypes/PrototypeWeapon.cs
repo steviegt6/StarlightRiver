@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Prototypes
+namespace StarlightRiver.Content.Items.Prototypes
 {
     internal enum BreakType : int
     {

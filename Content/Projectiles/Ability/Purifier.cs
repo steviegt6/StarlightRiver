@@ -1,17 +1,17 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Tiles;
-using StarlightRiver.Tiles.Interactive;
-using StarlightRiver.Tiles.Purified;
+using StarlightRiver.Content.Tiles;
+using StarlightRiver.Content.Tiles.Interactive;
+using StarlightRiver.Content.Tiles.Purified;
 using System;
 using Terraria;
 using Terraria.Graphics.Effects;
 using Terraria.ID;
 using Terraria.ModLoader;
-using StarlightRiver.Abilities;
+using StarlightRiver.Content.Abilities;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Projectiles.Ability
+namespace StarlightRiver.Content.Projectiles.Ability
 {
     internal class Purifier : ModProjectile
     {

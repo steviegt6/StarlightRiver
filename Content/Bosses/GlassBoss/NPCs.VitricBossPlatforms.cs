@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace StarlightRiver.NPCs.Boss.VitricBoss
+namespace StarlightRiver.Content.NPCs.Boss.VitricBoss
 {
     internal class VitricBossPlatformUp : MovingPlatform
     {

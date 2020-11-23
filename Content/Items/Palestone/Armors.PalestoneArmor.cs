@@ -9,7 +9,7 @@ using Terraria.DataStructures;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Armor.Palestone
+namespace StarlightRiver.Content.Items.Armor.Palestone
 {
     [AutoloadEquip(EquipType.Head)]
     public class PalestoneHead : ModItem

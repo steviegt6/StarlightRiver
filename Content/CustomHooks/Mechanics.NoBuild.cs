@@ -1,9 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StarlightRiver.Core;
-using StarlightRiver.NPCs.Boss.SquidBoss;
+using StarlightRiver.Content.NPCs.Boss.SquidBoss;
 using StarlightRiver.Physics;
-using StarlightRiver.Tiles.Permafrost;
+using StarlightRiver.Content.Tiles.Permafrost;
 using System;
 using System.Collections.Generic;
 using System.Linq;

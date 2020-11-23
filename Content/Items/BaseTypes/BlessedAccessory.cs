@@ -4,7 +4,7 @@ using System;
 using Terraria;
 using Terraria.ID;
 
-namespace StarlightRiver.Items.CursedAccessories
+namespace StarlightRiver.Content.Items.CursedAccessories
 {
     public abstract class BlessedAccessory : SmartAccessory
     {

@@ -2,7 +2,7 @@
 using Terraria.DataStructures;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items
+namespace StarlightRiver.Content.Items
 {
     public class StaminaOrbItem : QuickTileItem
     {

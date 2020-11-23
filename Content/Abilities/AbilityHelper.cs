@@ -1,10 +1,10 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Abilities.Content.Faeflame;
-using StarlightRiver.Abilities.Content.ForbiddenWinds;
-using StarlightRiver.Abilities.Content.GaiasFist;
+using StarlightRiver.Content.Abilities.Content.Faeflame;
+using StarlightRiver.Content.Abilities.Content.ForbiddenWinds;
+using StarlightRiver.Content.Abilities.Content.GaiasFist;
 using Terraria;
 
-namespace StarlightRiver.Abilities
+namespace StarlightRiver.Content.Abilities
 {
     //This class serves to simplify implementing ability interactions
     internal static class AbilityHelper

@@ -1,7 +1,7 @@
 ﻿using StarlightRiver.Buffs;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Herbology.Potions
+namespace StarlightRiver.Content.Items.Herbology.Potions
 {
     internal class FerrofluidDraft : QuickPotion
     {

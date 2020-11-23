@@ -7,7 +7,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Ultrashark
+namespace StarlightRiver.Content.Items.Ultrashark
 {
     public class Ultrashark : ModItem, IGlowingItem
     {

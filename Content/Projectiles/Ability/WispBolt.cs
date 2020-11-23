@@ -1,11 +1,11 @@
 ﻿using Microsoft.Xna.Framework;
 using StarlightRiver.Dusts;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using Terraria;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Projectiles.Ability
+namespace StarlightRiver.Content.Projectiles.Ability
 {
     public class WispBolt : ModProjectile
     {

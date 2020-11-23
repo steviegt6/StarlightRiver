@@ -1,9 +1,9 @@
 ﻿using Terraria.ID;
 using Terraria.ModLoader;
-using StarlightRiver.Items.Herbology.Materials;
+using StarlightRiver.Content.Items.Herbology.Materials;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Items.Crafting
+namespace StarlightRiver.Content.Items.Crafting
 {
     public class OvenItem : QuickTileItem
     {

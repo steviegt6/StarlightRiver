@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Tiles.Forest
+namespace StarlightRiver.Content.Tiles.Forest
 {
     internal class PalestoneItem : Items.QuickTileItem
     {

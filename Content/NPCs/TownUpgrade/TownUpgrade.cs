@@ -1,10 +1,10 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using StarlightRiver.Tiles;
+using StarlightRiver.Content.Tiles;
 using System.Collections.Generic;
 using Terraria.ID;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.NPCs.TownUpgrade
+namespace StarlightRiver.Content.NPCs.TownUpgrade
 {
     public abstract class TownUpgrade
     {

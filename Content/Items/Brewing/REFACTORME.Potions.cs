@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Items.Herbology.Potions
+namespace StarlightRiver.Content.Items.Herbology.Potions
 {
     public class Bottle : ModItem
     {

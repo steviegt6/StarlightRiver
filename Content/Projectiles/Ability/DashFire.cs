@@ -1,9 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace StarlightRiver.Projectiles.Ability
+namespace StarlightRiver.Content.Projectiles.Ability
 {
     public class DashFire : ModProjectile
     {

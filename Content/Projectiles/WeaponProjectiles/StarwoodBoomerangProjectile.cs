@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 using StarlightRiver.Core;
 using static Terraria.ModLoader.ModContent;
 
-namespace StarlightRiver.Projectiles.WeaponProjectiles
+namespace StarlightRiver.Content.Projectiles.WeaponProjectiles
 {
     class StarwoodBoomerangProjectile : ModProjectile, IDrawAdditive
     {

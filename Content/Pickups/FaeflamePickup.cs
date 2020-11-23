@@ -1,8 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
-using StarlightRiver.Abilities;
-using StarlightRiver.Abilities.Content.Faeflame;
+using StarlightRiver.Content.Abilities;
+using StarlightRiver.Content.Abilities.Content.Faeflame;
 using StarlightRiver.Core;
-using StarlightRiver.Items;
+using StarlightRiver.Content.Items;
 using System;
 using Terraria;
 using Terraria.Graphics.Effects;
