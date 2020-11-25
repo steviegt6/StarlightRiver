@@ -61,7 +61,7 @@ namespace StarlightRiver
         public static StarlightRiver Instance { get; set; }
 
         public StarlightRiver() { Instance = this; }
-
+        
         public override void UpdateMusic(ref int music, ref MusicPriority priority)
         {
             if (Main.myPlayer != -1 && !Main.gameMenu && Main.LocalPlayer.active)
@@ -153,6 +153,7 @@ namespace StarlightRiver
             }
         }
         public static Effect PrismShader;
+        public static Effect MushroomStemShader;
         public override void Load()
         {
             //Shaders
@@ -160,6 +161,7 @@ namespace StarlightRiver
             {
                 GameShaders.Misc["StarlightRiver:Distort"] = new MiscShaderData(new Ref<Effect>(GetEffect("Effects/Distort")), "Distort");
                 PrismShader = Instance.GetEffect("Effects/PrismShader");
+                MushroomStemShader = Instance.GetEffect("Effects/StemShader");
 
                 Ref<Effect> screenRef4 = new Ref<Effect>(GetEffect("Effects/Shockwave"));
                 Filters.Scene["ShockwaveFilter"] = new Filter(new ScreenShaderData(screenRef4, "ShockwavePass"), EffectPriority.VeryHigh);
