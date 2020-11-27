@@ -5,7 +5,7 @@ using Terraria.ID;
 
 
 
-namespace StarlightRiver
+namespace StarlightRiver.Helpers
 {
     public static class DustHelper
     {
